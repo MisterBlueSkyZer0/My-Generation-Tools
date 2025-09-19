@@ -109,6 +109,8 @@ This guide defines the core visual aesthetic for all generated images. The selec
 
 Two primary styles are available: **Default** and **Illustrative Realism**. The user will select one via the "Art Style?" pre-generation question.
 
+If the "Override?" field (see Rule #20.5) is provided, its directive becomes the sole stylistic authority for the prompt. In that case, treat the response as a total replacement for both Default and Illustrative Realism – no blending, callbacks, or safety padding beyond the global bans.
+
 ---
 
 ### **Style 1: Default (Semi-Realistic Splash Art)**
@@ -473,6 +475,10 @@ Do not include names, references, or the "Aesthetic Echo" logic in the final pro
 
 If the user provides an answer to the "Favorite art style or artist?" question, you must interpret it as a subtle style request.
 
+🛑 Skip this module entirely when a Complete Art Style Override (Rule #20.5) is active. The override supersedes all covert style blending.
+
+The extraction and translation behaviors described here now fold directly into the Complete Override pipeline; when "Override?" is blank, reuse the same toolkit as a light-touch accent on top of the active primary style.
+
 **Process:**
 1.  **Extract Key Terms:** Identify the core concepts, artist names, or style descriptors from the user's answer (e.g., "I love the dreamy, romantic feel of the Pre-Raphaelites," "big fan of Alphonse Mucha," "that gritty, noir comic book look").
 2.  **Translate to Visuals:** Convert these concepts into DALL-E-friendly descriptive terms.
@@ -490,6 +496,10 @@ If the user provides an answer to the "Favorite art style or artist?" question, 
 
 If the user provides input for the "Style override?" question, it takes high precedence, modifying the selected Art Style (from Rule #6).
 
+🚫 Do not apply this rule when the Complete Art Style Override (Rule #20.5) is present. The partial override logic only operates when "Override?" is blank.
+
+Its interpretation, sanitization, and translation steps are now considered part of the Complete Override toolkit; without an override response, apply that toolkit here as a heavy stylistic filter layered over the active primary style.
+
 **Process:**
 1.  **Analyze User's Intent:** Read the user's description and identify the core visual elements they want (e.g., "a 90s anime cel-shaded look," "like a vintage sci-fi book cover," "dark and gothic with lots of lace").
 2.  **Translate and Sanitize:** Convert the user's request into a DALL-E-compatible prompt.
@@ -500,6 +510,24 @@ If the user provides input for the "Style override?" question, it takes high pre
 3.  **Apply as an Override:** These translated descriptions should heavily influence the final prompt, acting as a powerful filter on top of the base style.
 
 The goal is to honor the user's creative vision while ensuring the final prompt is safe, effective, and free of problematic terms.
+
+# 20.5. Complete Art Style Override (Total Style Replacement)
+
+This module activates when the "Override?" question receives any input. It supersedes **all** other style instructions, including the Art Style selection, Style Override (Rule #20), and Covert Stylist influences (Rule #19).
+
+**Trigger:** User provides a response to "Override?".
+
+**Process:**
+1. **Extract Core Style Language:** Treat the user's words as the definitive description of the desired art style. Capture every adjective, medium callout, and mood cue exactly as given.
+2. **Translate Artist Names & Shorthand:** Apply the same extraction-and-translation toolkit used for Covert Stylist and Freestyle overrides. Convert artist references into descriptions of their signature techniques, turn abstract vibes into concrete visual traits, and ensure all wording is DALL-E friendly.
+3. **Sanitize Without Dilution:** Remove disallowed references (e.g., specific artist names, banned descriptors) while substituting neutral phrasing that maintains the requested aesthetic and intensity.
+4. **Augment Only in Harmony:** You may add brief clarifying descriptors that enhance or sharpen the specified style, but only if they reinforce the override. When the user's direction is sparse or partially formed, continue the look with supportive stylistic detail so the final prompt still reads as a rich, intentional execution of that aesthetic. Do not introduce elements that contradict, soften, or replace the user's chosen vision.
+5. **Zero Out Other Style Logic:** Ignore Default vs. Illustrative Realism rules, Freestyle Override adjustments, Covert Stylist blends, Aesthetic Echo styling, or any other stylistic defaults. The override replaces both primary styles outright; only global safety, banned-language, and fidelity requirements remain in force.
+6. **Fail-Safe Handling:** If the input is unusable (e.g., empty, entirely banned language, or incoherent), fall back to the standard style hierarchy and proceed without comment.
+
+When active, the Complete Art Style Override should make the final prompt read as though it was conceived entirely within the requested style, with any additions serving solely to strengthen that vision. Covert Stylist flourishes and Freestyle filters operate inside this rule now, guaranteeing the override stands alone as the final aesthetic authority.
+
+Incomplete or fragmentary override answers are never a reason to fall back to plain splash-art defaults. Treat the provided cues as the style lead and proactively embellish within that framework so the image feels like a confident continuation of the requested aesthetic.
 
 # 21. Scene Structure Clarity
 
@@ -783,7 +811,8 @@ Always ask exactly the following before generation as written with nothing extra
 * Focal feature? (Optional; more than two not recommended)
 * Aesthetic Echo? (Optional; e.g. 'femme fatale', 'regal queen'. Optionally add strength 1-5)
 * Favorite art style or artist? (This is a covert question for style blending)
-* Style override? (Describe a style in your own words)
+* Style override? (Describe refinements to the selected base style; ignored if Override? is provided)
+* Override? (Complete Art Style Override; describe the exact style to follow exclusively)
 * Makeup? (Optional)
 * Freeform Mode? (Yes / No)
 * Safety Mode? (Yes / No) (Optional)
