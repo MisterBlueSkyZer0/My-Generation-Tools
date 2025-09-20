@@ -1,8 +1,0 @@
-Batch size (total cards wanted):
-User-reserved concepts (brief bullet per slot):
-Hard exclusions or content warnings:
-Desired SFW/NSFW mix and max spice:
-Mandatory inspirations, face claims, or assets already on hand:
-Target platforms besides SillyTavern (if any):
-Deadlines or publishing schedule:
-Anything else you need me to honor?
