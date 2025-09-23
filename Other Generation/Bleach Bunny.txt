@@ -34,6 +34,26 @@ When writing greetings, avoid repeating phrasing or hooks. Each one should strik
 Template (use these exact headings and field labels, enhancing each with Hana-level specificity):
 
 ### CORE IDENTITY
+_Deliver a compressed dossier that foreshadows story hooks. Every field should hint at culture, class, or emotional stakes the way Hana’s "Role" instantly frames her forbidden intimacy. Keep entries tight (single clauses) yet textured enough to imply history._
+Name:
+Age:
+Sex:
+Ethnicity:
+Role:
+
+### APPEARANCE
+_Write 2-3 paragraphs (~6-8 sentences) that move from silhouette to micro-detail. Layer sensory beats (touch, scent, sound) and wardrobe habits that echo their emotional threads. Match Hana by interlacing physical specifics with how the user or world perceives them, plus one telling habit or ritual._
+
+### PERSONALITY
+_Use this section to braid internal contradictions and outward presentation. Let every subsection reinforce the core emotional themes identified during planning._
+Core Traits:
+_List 4-5 carefully chosen descriptors; pair each adjective with a short clarifying clause so the trait feels lived-in rather than generic._
+Persona:
+_Summarize how they perform socially versus privately in 2-3 sentences, highlighting tensions between mask and truth._
+Goals:
+_Rank three goals (immediate, relational, long-game). Each line should be 10-15 words, embedding a hook or obstacle._
+
+### CORE IDENTITY
 Name: 
 Age: 
 Sex: 
@@ -50,6 +70,36 @@ Goals:
    2.
    3.
 Fears & Insecurities:
+
+_Write 2 sentences or 3 bullets tying vulnerabilities to past wounds or potential conflicts._
+Preferences:
+   Loves:
+   _List 2-3 textured pleasures tied to senses or rituals._
+   Hates:
+   _Give 2-3 specific aversions that spark tension or humor._
+   Kinks:
+   _Anchor 2-4 erotic cues to behavior and emotional payoff; keep them consensual and seed-aligned._
+Behavioral Triggers:
+_Note 3 catalytic situations or phrases and describe the resulting shift in behavior or mood._
+
+### SPEECH STYLE
+_Capture cadence, pacing, and diction in 2-3 sentences. Include one signature phrase or linguistic quirk and note how their voice shifts under stress, mirroring Hana’s precise tonal guidance._
+
+### HISTORY
+_[Outline 4-6 chronological beats that sculpt who they are now. Each beat should blend fact with emotional resonance or sensory flash, creating immediate plot fuel the way Hana’s history ties academia to intimacy.]_
+
+### RELATIONSHIPS
+_[Prioritize the relationships that drive conflict or comfort. For each, include the other person’s role plus 1-2 sentences showing dynamic, boundary, and current tension. Always thread the user’s role clearly.]_
+
+### TOOLS, SKILLS & ABILITIES
+_[List 3-6 entries. Start each with a strong noun phrase, then explain how/when it manifests in play, mirroring Hana’s actionable mix of psychological and sensual proficiencies.]_
+
+### Default Greeting
+_[Aim for ~350 words. Open in medias res with immediate action or sensory input, then move through beats that highlight all emotional threads. Mirror the narrative architecture of the Hana sample—scene framing, alternating description with dialogue, and carefully timed interiority. Balance descriptive prose with dialogue that captures their voice, escalate toward a soft hook, and close on an invitation or unspoken tension. Match Hana’s density: at least three sensory cues, one internal thought, and one physical interaction tied to the user.]_
+
+### Additional Greeting #1
+_[Keep word count and richness equal to the default. Mirror the pacing discipline of the Hana sample while exploring a distinct scenario. Shift tone, setting, or power dynamic while maintaining continuity. Ensure it showcases a different facet of the emotional core (e.g., public vs. private, playful vs. aching) and includes unique sensory anchors so no greeting feels redundant. Honor any user-specified POV, spice level, or directives exactly while elevating texture to Hana standards.]_
+
 Preferences:
    Loves:
    Hates:
