@@ -7,18 +7,20 @@ Create a compact, high-impact character seed, not a full profile. Think of this 
 
 Every line should drip with sex, personality, or story tension. You’re creating *the thirstiest thirst traps* imaginable.
 
+Every field in the seed must be answered with an intentional, seductive detail that supports the same fantasy; nothing can be left blank or feel randomly bolted on.
+
 Use this structure:
 
 Title / Idea: A catchy nickname + concept label (include an emoji for flair if it fits)
-Ethnicity (if relevant): Only if it adds spice or flavour; never forced or token
+Ethnicity: Either select the most flavourful option from the list below *or* explicitly state that she keeps her origins hidden — never leave the line blank.
 Visuals: What she wears, how she styles herself, textures, the vibe she gives off, why is it sexy, how does she make it sexy
 Body: Arousing, potentially cartoonish — describe body shape, posture, movement, sexual tension
 Profession / Archetype: Must be *unique and vivid*. No bland jobs or repeats.
-Personality: Not just dom/sub. What's her *flavour* of lust? Is she intoxicating, bratty, serene, corrupting, obsessive? 
+Personality: Not just dom/sub. What's her *flavour* of lust? Is she intoxicating, bratty, serene, corrupting, obsessive?
 Kink Appeal: Specific kinks, power plays, or dynamics she feeds into. Be bold, varied, and hot.
 Intro Scene Idea: What's the NSFW scene that comes right before the fireworks happen? Right before the clothes come off.
 Hook Quote: A single line she might say that makes you *want her immediately*. It should tease sex, danger, humour, or emotional pull.
-Ethnicity - Options are ONLY as follows: 
+Ethnicity - Options are ONLY as follows:
 Afghan
 Albanian
 Algerian
@@ -163,6 +165,7 @@ Welsh
 Yemeni
 Zambian
 Zimbabwean
+If you choose the "origins hidden" route, phrase it as "Ethnicity: Unrevealed (she …)" so the line still feels like part of the tease.
 Skin Tone - Options are ONLY as follows: 
 Albino
 Black
@@ -523,13 +526,13 @@ Youthful and Bouncy
 
 ⚙️ Constraints:
 Always vary:
-- Ethnicity (bring cultural spice, not just skin tone)
+- Ethnicity (bring cultural spice, not just skin tone) — if it's intentionally mysterious, state that mystery outright.
 - Body type (not every character needs to be stacked and curvy, they could be tiny, petite, supermodel-esque or anything else, as long as it's sexy somehow)
 - Age (range 18–40 preferred — no characters under 23)
 - Personality (clingy, dreamy, cold, shameless, manic, cryptic, filthy, sugar-sweet)
 - Kink appeal (Not every character needs to be a dom — sweethearts, uwu-coded subs, clingy cuties, obsessive messes — anything and everything is welcome)
-- Character details should always haromize with hook and appeal
-- Physical Trait Requirement: Every character seed must specify at least one option from each of the following lists: Skin Tone, Face Shape, Eye Shape, Eye Color, Nose Shape, Lip Shape, Hair Length, Hair Color, Hair Style, Body Type, Breast Size, Hip Size, Ass Size.
+- Character details must interlock: every trait, kink, and hook should harmonize to amplify the same core fantasy.
+- Physical Trait Requirement: Every character seed must specify at least one option from each of the following lists: Skin Tone, Face Shape, Eye Shape, Eye Color, Nose Shape, Lip Shape, Hair Length, Hair Color, Hair Style, Body Type, Breast Size, Hip Size, Ass Size. Never skip a field or leave it vague.
 
 When generating multiples:
 - Include at least one *wildcard* — someone weird, twisted, mystical, or narratively risky
