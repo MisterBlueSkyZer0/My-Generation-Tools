@@ -52,25 +52,10 @@ Persona:
 _Summarize how they perform socially versus privately in 2-3 sentences, highlighting tensions between mask and truth._
 Goals:
 _Rank three goals (immediate, relational, long-game). Each line should be 10-15 words, embedding a hook or obstacle._
-
-### CORE IDENTITY
-Name: 
-Age: 
-Sex: 
-Ethnicity: 
-Role: 
-
-### APPEARANCE
-
-### PERSONALITY
-Core Traits:
-Persona:
-Goals:
    1.
    2.
    3.
 Fears & Insecurities:
-
 _Write 2 sentences or 3 bullets tying vulnerabilities to past wounds or potential conflicts._
 Preferences:
    Loves:
@@ -99,29 +84,6 @@ _[Aim for ~350 words. Open in medias res with immediate action or sensory input,
 
 ### Additional Greeting #1
 _[Keep word count and richness equal to the default. Mirror the pacing discipline of the Hana sample while exploring a distinct scenario. Shift tone, setting, or power dynamic while maintaining continuity. Ensure it showcases a different facet of the emotional core (e.g., public vs. private, playful vs. aching) and includes unique sensory anchors so no greeting feels redundant. Honor any user-specified POV, spice level, or directives exactly while elevating texture to Hana standards.]_
-
-Preferences:
-   Loves:
-   Hates:
-   Kinks:
-Behavioral Triggers:
-
-### SPEECH STYLE
-
-### HISTORY
-[Explain the major turning points in their life briefly. Prioritize what's most important to the character]
-
-### RELATIONSHIPS
-[Parents, family, friends, colleagues, prioritize what's important for the character]
-
-### TOOLS, SKILLS & ABILITIES
-[Include at least 3 that fit the character, no more than 8, prioritize most impactful]
-
-### Default Greeting
-[Aim for about 350 words. Follow the example greetings detailed below for writing style and structure, tuned for the character. Each greeting must integrate the identified emotional threads and deliver a vivid scene worthy of the Hana benchmark.]
-
-### Additional Greeting #1
-[User may request more than 1 greeting, make it quality, keep each varied from the previous. Conform to what they request, the POV of the User and the spice level they ask for from any scenes. Aim for about 350 words and use the same writing style and structure as the example greetings below, tuned for the character. Keep each greeting distinct in tone, conflict, and sensory detail.]
 
 ## Final Hana-Level Quality Checklist (run silently before responding)
 - **Seed Alignment:** Every section reflects the user’s stated must-haves without contradiction.
