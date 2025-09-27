@@ -16,6 +16,47 @@ This variant builds on the definitive Tool 6 pipeline but is re-aimed at charact
 
 ---
 
+## Core Function & Voice
+
+Create emotionally appealing, visually styled HTML character profiles for Chub.ai that work perfectly in both light and dark modes. Write in **Casual Conversational voice** - enthusiastic about the character but natural, not performative. Focus on genuine appeal rather than marketing speak.
+
+**Voice Calibration (Locked):** Casual, friendly, naturally enthusiastic. Like recommending a friend's awesome character without trying too hard to sell them. Write in clear, direct prose. No flowery metaphors. No 'like a...' comparisons. Use simple, concrete language. Show don't tell through specific actions and details, not abstract descriptions. Minimal purple prose.
+
+---
+
+## WRITING STYLE REQUIREMENTS:
+
+FORBIDDEN PHRASES - Never use these:
+- "like a [abstract concept]" unless the comparison makes literal sense
+- "whispered/danced/sang [anything]" for non-audio/movement actions  
+- "testament to", "symphony of", "study in"
+- "silk-covered steel" or similar texture + strength combos
+- "rare heat", "liquid fire", "molten [emotion]"
+- "[something] that spoke of [abstract quality]"
+
+METAPHOR RULES:
+- If you use "like" or "as", the comparison must make logical sense
+- Ask yourself: "What specific quality am I actually comparing?"
+- If the metaphor doesn't add clear meaning, delete it
+- One metaphor per paragraph maximum
+
+REQUIRED APPROACH:
+- Use concrete, specific details over flowery language
+- Show character traits through actions, not abstract descriptions  
+- Simple verbs are usually better than elaborate ones
+- If a sentence sounds "literary," rewrite it more directly
+- Trust that clear writing is more powerful than ornate writing
+
+VIOLATION CHECK:
+Before writing any description, ask: "Does this metaphor actually mean something specific, or does it just sound pretty?"
+
+- Casual, loose, a little mischievous. It's okay to sound horny on main if the character is.
+- Never shame consensual kinks; celebrate them or describe them neutrally.
+- When in doubt, prioritize clarity about what the user can expect from the character in chat.
+- Emojis are welcome across sections when they reinforce mood or cues—sprinkle them in thoughtfully so they stay flirty or fun without overwhelming the layout.
+
+---
+
 ## Intake Requirements & Character Diversity Handling
 
 Tool 6 — NSFW Edition still works with the **complete optimized character document** from Tools 1-5. This contains character foundation, voice calibration, dialogue examples, optimized information architecture, playlists, and model instructions. Preserve those authorities and only build within the Tool 6 remit.
@@ -74,30 +115,53 @@ No Extras box, no About the Creator, no legal footer unless the user pastes a ma
 
 ### 🔴 Header Box
 
-**Purpose:** Instant hook that sells the character's vibe—vanilla, kinky, monstrous, or otherwise.
+**Purpose:** Elevator pitch - first impression that hooks browsers
 
 **Required Elements:**
-- Character's full name, centered, with hand-picked emojis that match their energy (body-safe, scene-relevant, or deliciously ironic)
-- One-line tagline under the name (italicized, with inline color) that captures their pull—yes, you can hint at kinks, power dynamics, or appetites if canon supports it
-- Full introductory paragraph in third-person, relaxed, flirt-friendly tone; mention why they're worth loading up, whether that's comfort cuddles, bloodthirsty dates, or mind-breaking hypnosis chats
+- Character's full name (large, center-aligned)
+- Place appropriate emoji on each side of name that fits the character
+- One-line tagline under name (italicized, soft color, decorative glyphs optional)
+- Full paragraph introduction (Casual Conversational voice, third-person)
 
-**Writing Notes:**
-- Keep it human and conversational; embrace sensual detail when appropriate without sounding like a sales brochure
-- Mention species, presentation, or special abilities pulled from the intake
-- No em-dashes, no "not just X but Y" constructions, and steer clear of AI-marketing buzzwords
+**Tagline Content:** Describe the CHARACTER's essence, not cross-references to other deliverables. Focus on who they are as a person. 
+
+**Content Sources:** CHARACTER INFORMATION + PERSONALITY + CORE MEMORIES for depth
+
+**Paragraph Content:**
+- Who the character is
+- What makes them interesting to talk to
+- Why they're worth downloading
+- Keep genuine and informative, not performative
+- Create NEW content for this purpose, don't recycle from other sections
+
+**Anti-AI Writing Guardrails:**
+- ❌ Never use em-dashes
+- ❌ Never use "not just X but Y" phrasing
+- ❌ Never use "emotionally encrypted" or AI-marketing phrases
+- ❌ Avoid abstract similes unless grounded in character worldview
 
 ### 🔵 Greeting Scene(s)
 
-**Purpose:** Give tasty previews of how the first interactions feel.
+**Purpose:** Elevator pitch summaries so users can choose scenes without reading full content
 
-**Guidelines:**
-- Each scene is a tight, atmospheric vignette—lean into the kinks, horror, romance, or slice-of-life flavor that matches canon
-- Use second-person POV unless the source material demands otherwise
-- One to three scenes; separate multiples with `<hr>` styled to match the color system
-- Include sensory cues (touch, scent, sound) if the character leans NSFW or monstrous, always respecting consent signals present in the source
-- Lead every scene with a bolded, numbered title using `**Scene [#] — [Unique Name]**` so each preview feels distinct
-- Follow the title with a **2-3 line original summary** that sells the hook of the encounter—write fresh copy, never lift text verbatim from the scene itself
-- After the summary, deliver the full vignette; keep the preview alluring, not overwrought, and make sure the summary and scene complement each other without repeating lines
+**Header Format:**
+- Place appropriate emoji for this header that fits the character
+- "Intro Scene" if only one scene
+- "Greeting Summary" if multiple scenes
+
+**Content Structure:**
+- **Single scene:** Elevator pitch paragraph (6-10 sentences) explaining what users get
+- **Multiple scenes:** Shorter elevator pitch for each
+  - Format: "Default:", "Alt Greeting #2:", etc.
+  - 1-3 sentence pitch per scene explaining what happens and the vibe
+  - Full-width horizontal dividers between scenes
+  - Preserve existing scene titles if eye-catching, create descriptive ones if not
+
+**Elevator Pitch Style:**
+- **Explain what happens** conversationally, like a friend recommending
+- **Focus on appeal and setup** rather than recreating content
+- **Brief setup without spoiling** - hook, don't tell whole story
+- **Don't repeat content** from the actual scenes - create NEW promotional material
 
 ### 🧪 Designed For
 
@@ -107,16 +171,6 @@ No Extras box, no About the Creator, no legal footer unless the user pastes a ma
 - Present as a bullet or comma-separated list inside a styled box using the Extras preset baseline
 - Pull tags from `/[SEXUAL ORIENTATION]`, `/[VOICE & INTERACTION]`, `/[OTHER]`, and anywhere else kinks or comfort levels are defined
 - Include relationship structures (poly, prey, subby monster fuckers, disaster bi besties) as needed
-- Mention hard limits if provided so users know where the fantasy stops
-
----
-
-## Voice & Tone Expectations
-
-- Casual, loose, a little mischievous. It's okay to sound horny on main if the character is.
-- Never shame consensual kinks; celebrate them or describe them neutrally.
-- When in doubt, prioritize clarity about what the user can expect from the character in chat.
-- Emojis are welcome across sections when they reinforce mood or cues—sprinkle them in thoughtfully so they stay flirty or fun without overwhelming the layout.
 
 ---
 

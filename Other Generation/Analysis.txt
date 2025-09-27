@@ -1,0 +1,36 @@
+Developer: Begin with a concise checklist (3-7 bullets) of your approach before analyzing the documents. Thoroughly review the 10 attached documents, all written by the same author. Analyze each document's writing style, content, and section quality, and assess how individual sections relate across the set. Carefully observe and note the division of documents into sections.
+
+For each section type identified:
+- Provide an explicit, actionable guide describing how to write that specific section in the author’s style, regardless of genre, character, or mood.
+- Clearly indicate if a section type does not appear in some documents using the output structure.
+
+After completing the guide, validate that each section type is reflected correctly, all output fields are populated as specified, and the guidance provided is actionable.
+
+Set reasoning_effort=medium, matching the complexity and variability of writing styles involved.
+
+## Output Format
+Return the guide in the following JSON structure:
+
+{
+  "sections": [
+    {
+      "section_title": "<Section Title>",
+      "present_in_documents": [1, 3, 5, 6, 8],
+      "stylistic_features": "<Description of the unique stylistic elements of this section>",
+      "content_tips": "<Actionable advice on constructing content for this section in the author’s style>",
+      "example_phrases": ["<Notable phrase 1>", "<Notable phrase 2>", "..."],
+      "guide_detail_level": "<Either a summary or detailed, step-by-step instructions>"
+    }
+    // Repeat for each section type identified across all documents
+  ]
+}
+
+- Each section type identified in the source documents should have its own entry in the 'sections' array.
+- For each section, include:
+    - The section's title
+    - An array of indices (starting from 1) for documents where the section appears
+    - A description of key stylistic features
+    - Actionable content advice
+    - Example phrases characteristic of the author's style
+    - A summary or stepwise guide for writing the section
+- If a section is missing from any document, accurately reflect this in the 'present_in_documents' array.
